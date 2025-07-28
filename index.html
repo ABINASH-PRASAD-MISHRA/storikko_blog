@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Salemaster Inventory Management</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #005792;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #003f63;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #0074a2;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .feature-box {
+      background: white;
+      padding: 20px;
+      flex: 1;
+      min-width: 280px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    iframe {
+      width: 100%;
+      height: 700px;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      background: #eeeeee;
+      padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .features {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Salemaster Inventory Management</h1>
+    <p>Smart, simple, and scalable inventory control for modern businesses</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#dashboard">Dashboard</a>
+    <a href="#contact">Contact</a>
+    <a href="#login">Login</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Storikko</h2>
+      <p>Storikko is an intuitive inventory management solution designed to streamline stock tracking, purchasing, and sales processes for businesses of all sizes.</p>
+    </section>
+
+    <section id="features">
+      <h2>Core Features</h2>
+      <div class="features">
+        <div class="feature-box">
+          <h3>Live Stock Tracking</h3>
+          <p>Monitor inventory levels in real-time with alerts and audit logs.</p>
+        </div>
+        <div class="feature-box">
+          <h3>Sales & Purchase Orders</h3>
+          <p>Create, manage, and track orders from suppliers and customers with ease.</p>
+        </div>
+        <div class="feature-box">
+          <h3>Analytics & Reports</h3>
+          <p>Gain insights from sales trends, inventory turnover, and restock forecasting.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="dashboard">
+      <h2>Live Dashboard</h2>
+      <p>Interact with the real-time inventory dashboard powered by Streamlit:</p>
+      <iframe src="https://storico-743954678688.asia-south1.run.app/"></iframe>
+    </section>
+
+    <section id="contact">
+      <h2>We are here to support! Contact Us!</h2>
+      <p>Email: hellostorikko@gmail.com</p>
+      
+    </section>
+
+    
+
+  <footer>
+    &copy; 
+  </footer>
+
+</body>
+</html>
